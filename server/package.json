@@ -1,0 +1,42 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node api.js && node server.js",
+    "dev": "node api.js && nodemon server.js",
+    "seed": "node seedData.js",
+    "seed:cashflow": "node src/seeds/seedCashFlowData.js",
+    "init:cashflow": "node src/scripts/initCleanAccounts.js",
+    "clean:cashflow": "node src/scripts/cleanCashFlowData.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "agenda": "^5.0.0",
+    "axios": "^1.13.2",
+    "canvas-confetti": "^1.9.4",
+    "cors": "^2.8.5",
+    "denzo-monorepo": "file:..",
+    "dotenv": "^17.2.3",
+    "exceljs": "^4.4.0",
+    "express": "^5.2.1",
+    "express-async-handler": "^1.2.0",
+    "express-rate-limit": "^8.6.2",
+    "express-validator": "^7.3.1",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.1.1",
+    "morgan": "^1.10.1",
+    "multer": "^2.3.0",
+    "nodemailer": "^10.0.7",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}

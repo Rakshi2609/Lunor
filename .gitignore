@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment variables
+*.env
+
+# Build output
+dist/
+build/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Firebase
+.firebase/
+firebase-debug.log
+firestore-debug.log
+
+# Firebase Service Account Credentials (NEVER COMMIT THESE!)
+*firebase-adminsdk*.json
+serviceAccount.json
+tasktapper-firebase-adminsdk*.json
+
+# Agenda jobs
+agendaJobs/
+config.bat
+
+# Archives
+*.zip
