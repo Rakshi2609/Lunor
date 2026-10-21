@@ -4,8 +4,8 @@
   "type": "module",
   "main": "server.js",
   "scripts": {
-    "start": "node api.js && node server.js",
-    "dev": "node api.js && nodemon server.js",
+    "start": "node init && node server.js",
+    "dev": "node init && nodemon server.js",
     "seed": "node seedData.js",
     "seed:cashflow": "node src/seeds/seedCashFlowData.js",
     "init:cashflow": "node src/scripts/initCleanAccounts.js",
