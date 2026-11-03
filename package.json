@@ -4,9 +4,9 @@
   "description": "Denzo MERN + Firebase monorepo",
   "main": "server/server.js",
   "scripts": {
-    "build": "node init && npm install --prefix server && npm install --prefix client && npm run build --prefix client",
-    "start": "node init && NODE_ENV=production node server/server.js",
-    "dev": "node init && concurrently \"npm run dev --prefix server\" \"npm run dev --prefix client\""
+    "build": "npm install --prefix server && npm install --prefix client && npm run build --prefix client",
+    "start": "NODE_ENV=production node server/server.js",
+    "dev": "concurrently \"npm run dev --prefix server\" \"npm run dev --prefix client\""
   },
   "keywords": [
     "mern",

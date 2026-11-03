@@ -36,7 +36,6 @@ tasktapper-firebase-adminsdk*.json
 
 # Agenda jobs
 agendaJobs/
-config.bat
 
 # Archives
 *.zip
